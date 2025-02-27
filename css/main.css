@@ -57,3 +57,34 @@ body {
 .hero .cta:hover {
     background-color: #27ae60;
 }
+
+/* Grid Container */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    padding: 2rem;
+    position: relative;
+    grid-auto-flow: dense;
+    max-width: 100%;
+    width: auto;
+    flex-grow: 1;
+    margin-bottom: 2rem;
+}
+
+/* Grid Items */
+.grid-item {
+    padding: 1rem;
+    background-color: #1b1b1b;
+    border: 3px solid #2ecc71;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+    position: relative;
+    color: #ecf0f1;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    z-index: 1;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
