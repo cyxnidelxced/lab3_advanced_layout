@@ -126,6 +126,8 @@ body {
     clip-path: polygon(5% 10%, 25% 5%, 45% 20%, 60% 10%, 80% 15%, 90% 30%, 100% 55%, 85% 80%, 60% 90%, 45% 75%, 25% 85%, 10% 70%, 0% 40%); /* Jagged effect */
 }
 
+
+
 /* Adjusting for Text Box Overlap */
 .text-box1 { top: 20%; left: 10%; z-index: 3; }
 .text-box2 { top: 30%; left: 10%; z-index: 3; }
@@ -189,6 +191,19 @@ body {
         font-size: 1rem;
         padding: 0.8rem;
     }
+}
+
+/* Hover effect for text boxes */
+.text-box:hover {
+    background-color: #60ffa2; /* Solid color when hovered */
+    transform: scale(1.05); /* Slightly enlarge the text box */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6); /* Add a shadow for depth */
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Optional: If you want to change text color on hover */
+.text-box:hover p {
+    color: #000000; /* White text when hovering over the text box */
 }
 
 /* Footer Styling */
