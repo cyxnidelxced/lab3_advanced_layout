@@ -16,3 +16,44 @@ body {
     flex-direction: column;
     min-height: 100vh; /* Ensure full height of viewport */
 }
+
+/* Hero Section Styling */
+.hero {
+    background-color: #8e44ad; /* Joker Purple */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 2rem 1rem; /* Reduced height */
+    background-image: url('../images/joker-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.hero .cta {
+    display: inline-block;
+    background-color: #2ecc71; /* Joker Green */
+    padding: 1rem 3rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-top: 2rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.hero .cta:hover {
+    background-color: #27ae60;
+}
