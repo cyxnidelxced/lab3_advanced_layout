@@ -130,6 +130,11 @@ body {
 .text-box1 { top: 20%; left: 10%; z-index: 3; }
 .text-box2 { top: 30%; left: 10%; z-index: 3; }
 .text-box3 { top: 10%; left: 30%; z-index: 3; }
+.text-box4 { top: 40%; left: 60%; z-index: 3; }
+.text-box5 { top: 50%; left: 30%; z-index: 3; }
+.text-box6 { top: 70%; left: 50%; z-index: 3; }
+.text-box7 { top: 60%; left: 70%; z-index: 3; }
+.text-box8 { top: 80%; left: 40%; z-index: 3; }
 
 /* Adjusting for Small Screens */
 @media (max-width: 768px) {
