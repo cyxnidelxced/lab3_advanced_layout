@@ -131,6 +131,14 @@ body {
     clip-path: polygon(5% 10%, 25% 5%, 45% 20%, 60% 10%, 80% 15%, 90% 30%, 100% 55%, 85% 80%, 60% 90%, 45% 75%, 25% 85%, 10% 70%, 0% 40%);
 }
 
+/* Hover Effects for Text Boxes */
+.text-box:hover {
+    background-color: rgba(102, 253, 135, 0.9); /* Darker Red for hover effect */
+    transform: scale(1.05); /* Slightly larger on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Adding shadow for depth */
+    color:#1b1b1b;
+}
+
 /* Adjusting for Text Box Overlap */
 .text-box1 { top: 20%; left: 10%; z-index: 3; }
 .text-box2 { top: 30%; left: 10%; z-index: 3; }
