@@ -158,3 +158,30 @@ body {
         padding: 0.8rem;
     }
 }
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .big-image {
+        grid-column: span 1;
+        grid-row: span 1;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .small-image {
+        grid-column: span 1;
+        grid-row: span 1;
+        width: 100%; 
+        height: auto;
+        object-fit: contain;
+    }
+
+    .text-box {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
