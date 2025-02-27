@@ -88,3 +88,17 @@ body {
     align-items: center;
     overflow: hidden;
 }
+
+/* Image Tilt Effect */
+.grid-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Image Hover Tilt */
+.grid-item:hover img {
+    transform: perspective(1000px) rotateY(15deg) rotateX(10deg);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
